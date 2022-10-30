@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta name="description" content="This is a travel guide to the West Coast of the United States
+        it is one of the most beatiful part of the world. The west coast includes California, Oregon and 
+        Washington (the state), which incorporates beautiful beaches, gorgeous deserts, and majestic mountains
+        I plan to travel the West Coast this summer, so I'm doing this guide both for me and others">
+        <link rel="stylesheet" href="styles.css">
+        <title>Final Project | Letian Zhang</title>
+        <style>
+            
+            #header{
+                background-image: url(img/header.jpg);
+                background-position: center;
+                background-size: cover;
+                height: 300px;
+                line-height: 300px;
+                color: white;
+            }
+            iframe{
+                width: 800px;
+                height: 450px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            #intro{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row-reverse;
+                text-align: center;
+                width: 1150px;
+            }
+            #intro_text{
+                width: 550px;
+                border: 2px solid black;
+                display: flex;
+                flex-direction: column;
+                background-color: #FAE4EA;
+                transition: 1s;
+            }
+            
+            #intro_text p{
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            #intro_images{
+                display: flex;
+                flex-direction: column;
+            }
+            
+            #intro_images img{
+                width: 550px;
+                height: auto;
+                transition: 1s;
+            }
+            #intro_images img:hover{
+                transform: scale(1.2);
+            }
+            #california{
+                background-color: #5392A0;
+                color: #FAE4EA;
+                transition: 1s;
+            }
+            #california:hover{
+                transform: scale(1.2);
+            }
+            #PNW{
+                background-color: #FAE4EA;
+                transition: 1s;
+            }
+            #PNW:hover{
+                transform: scale(1.2);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="pre-header">
+            <div id="title">
+                Travel: West Coast
+            </div>
+            <div id="navbar">
+                <ul>
+                    <li><a href="travel_westcoast.html">Home</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="contact-me.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header">
+            <h1>West Coast of the United States</h1>
+        </div>
+        <div id="content">
+
+       
+            
+            <hr>
+            <div id="main">
+                <iframe src="https://www.youtube.com/embed/x1gCrNnzvlo" 
+                title="Top 10 Must-See Destinations on a Western Road Trip" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+                <hr>
+                <div id="intro">
+                    <div id="intro_text">
+                        <div id="california">
+                            <h2>California</h2>
+                            <p>
+                                California is the largest state of the United States by population, 
+                                and the third largest by area, located on its coast to the Pacific Ocean. 
+                                California has natural attractions as well as theme-parks and bustling city life: 
+                                Southern California is home to such popular attractions as Disneyland, 
+                                Hollywood and the beaches in Malibu that inspired the television show Baywatch, 
+                                while the northern part of California offers the iconic Golden Gate Bridge, the hills of San Francisco, 
+                                the vineyards of Napa Valley, Silicon Valley, and the capital, 
+                                Sacramento. Outside California's major cities one finds some of North America's most rugged national parks, 
+                                incredible skiing/snowboarding opportunities, and quiet and ancient northern forests 
+                                including the highest mountain peak in the contiguous USA, Mt. Whitney.
+                            </p>
+                        </div>
+                        <div id="PNW">
+                            <h2>Pacific Northwest</h2>
+                            <p>The pacific Northwest include the state of Oregon and Washington</p>
+                            <p>
+                                Most people associate the Pacific Northwest with a cloudy, 
+                                rainy area, but the Northwest has a variety of climate regions, 
+                                from the Pacific Coast to the valley and, once over the mountains, 
+                                a desert region -- all within a few hours drive of each other. 
+                                There is enough to keep the outdoor enthusiast busy. 
+                                The Pacific Northwest is known for its airplane and computer product facilities. 
+                                Some of the largest and most well-known corporations call the Northwest home, 
+                                these include: Costco, Eddie Bauer, Expedia, Amazon.com, Starbucks, 
+                                Tully's Coffee, Lionsgate Studios, Boeing, Microsoft, Intel, 
+                                and Nike just to name a few. There are many exciting areas to see.
+                            </p>
+                        </div>
+                        
+                    </div>
+                    <div id="intro_images">
+                        <img src="img/west_coast_us.svg.png" alt="map of west coast">
+                        <img src="img/west_coast2.jpg" alt="rocks">
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div id="footer">
+            Letian Zhang - 2022
+        </div>
+    </body>
+</html>

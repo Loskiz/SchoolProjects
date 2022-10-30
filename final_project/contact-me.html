@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Contact me if you want to share a car and visit the places together.
+        We will have so much fun. Sharing a car is both economical and environmentally friendly, and I trust you will 
+        enjoy the company.">
+        <link rel="stylesheet" href="styles.css">
+        <title>Contace Me</title>
+        <style>
+            #header{
+                background-color: #FAE4EA;
+                background-image: none;
+                color: #5392A0;
+            }
+            #main{
+                width: 800px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            textarea{
+                width: 700px;
+                height: 300px;
+                text-align: center;
+                margin-top: 30px;
+            }
+            input{
+                font-size: 1.3em;
+                color: #FAE4EA;
+            }
+            #topbar{
+                display: flex;
+                margin-top: 30px;
+                width: 700px;
+                justify-content: space-evenly;
+                color: #FAE4EA;
+            }
+            button{
+                font-size: 1.5em;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="pre-header">
+            <div id="title">
+                Contact Me
+            </div>
+            <div id="navbar">
+                <ul>
+                    <li><a href="travel_westcoast.html">Home</a></li>
+                    <li><a href="locations.html">Locations</a></li>
+                    <li><a href="contact-me.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header">
+            <h1>Contact Me to share a car</h1>
+        </div>
+        <div id="content">
+            <div id="main">
+                <form action="confirmation.html">
+                    <div id="topbar">
+                        <label id="name">
+                            Name: 
+                            <input type="text">
+                        </label>
+                        <label id="email">
+                            Email:
+                            <input type="email">
+                        </label>
+                    </div>
+                    <textarea></textarea>
+                    <div id="lowbar">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Clear</button>
+                    </div>                    
+                </form>
+            </div>
+        </div>
+        <div id="footer">
+            Letian Zhang - 2022
+        </div>
+    </body>
+</html>
